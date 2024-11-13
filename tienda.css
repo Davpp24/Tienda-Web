@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Raleway', serif;
+}
+
+.navbar-nav .nav-link {
+    font-size: 1.2rem;
+}
+
+.destacado{
+    font-size: 48px;
+    background-color: #157759;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    font-family: 'EduVICWA NT Hand Precursive', sans-serif;
+}
+
+.texto{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.orden_productos{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+.producto {
+    margin: 20px;
+}
+
+.precio{
+    color: #575757;
+}
+.producto img {
+    width: 200px;
+    height: auto;
+}
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url('./rescursos/footer.png');
+    background-size: cover;
+    padding: 20px;
+    border-top: 3px solid #ccc;
+}
+
+footer a{
+    color: black;
+}
+
+footer .texto_licencia{
+    color: white;
+}
+
+.logo img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.social a {
+    margin: 0 10px;
+    color: black;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+.social a:hover {
+    opacity: 0.7;
+}
+.social img{
+    width: 40px;
+    height: 40px;
+}

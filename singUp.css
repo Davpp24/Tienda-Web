@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Raleway', serif;
+}
+
+.navbar-nav .nav-link {
+    font-size: 1.2rem;
+}
+
+#login:hover, #signup:hover {
+    opacity: 0.7;
+}
+.formulario{
+    background-image: url(./rescursos/fondo_singUp.jpg);
+    background-size: cover;
+    display: block;
+}
+
+.formulario input{
+    margin-top: 10px;
+    width: 200px;
+    height: 35px;
+}
+.personales{
+    margin-bottom: 20px;
+    margin-left: 38%;
+}
+
+.email{
+    margin-bottom: 20px;
+    margin-left: 38%;
+}
+
+.contrasena{
+    margin-bottom: 20px;
+    margin-left: 38%;
+}
+
+.personales2{
+    margin-bottom: 20px;
+    margin-left: 38%;  
+}
+
+.preguntas{
+    display: flex;
+    justify-content: center;
+    gap: 20%;
+}
+
+.formulario button{
+    
+    background-color: black;
+    color: white;
+    width: 270px;
+    height: 60px;
+    margin-left: 650px;
+    margin-bottom: 60px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url('./rescursos/footer.png');
+    background-size: cover;
+    padding: 20px;
+    border-top: 3px solid #ccc;
+}
+
+footer a{
+    color: black;
+}
+
+footer .texto_licencia{
+    color: white;
+}
+
+.logo img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.social a {
+    margin: 0 10px;
+    color: black;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+.social a:hover {
+    opacity: 0.7;
+}
+.social img{
+    width: 40px;
+    height: 40px;
+}
+

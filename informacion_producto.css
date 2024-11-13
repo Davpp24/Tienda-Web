@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Raleway', serif;
+}
+
+.navbar-nav .nav-link {
+    font-size: 1.2rem;
+}
+
+#login:hover, #signup:hover {
+    opacity: 0.7;
+}
+
+.producto{
+    margin-left:40px;
+    display: flex;
+    gap: 40px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
+#silla_vaquera2{
+    width: 186;
+    height: 136;
+}
+
+#silla_vaquera3{
+    width: 238;
+    height: 206;
+}
+
+
+.informacion{
+    color: #848282;
+}
+
+.anyadir {
+    background-color: #82DBB8; /* Verde */
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.comprar {
+    background-color: #82DBB8; /* Verde */
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url('./rescursos/footer.png');
+    background-size: cover;
+    padding: 20px;
+    border-top: 3px solid #ccc;
+}
+
+footer a{
+    color: black;
+}
+
+footer .texto_licencia{
+    color: white;
+}
+
+.logo img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.social a {
+    margin: 0 10px;
+    color: black;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+.social a:hover {
+    opacity: 0.7;
+}
+.social img{
+    width: 40px;
+    height: 40px;
+}
