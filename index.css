@@ -1,123 +1,127 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Qwitcher+Grypen:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Qwitcher+Grypen:wght@400;700&display=swap");
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 .navbar-nav .nav-link {
-    font-family: 'Raleway', serif;
-    font-size: 1.2rem;
+  font-family: "Raleway", serif;
+  font-size: 1.2rem;
 }
 
-#login:hover, #signup:hover {
-    opacity: 0.7;
+#login:hover,
+#signup:hover {
+  opacity: 0.7;
 }
 
 #play-pause-btn {
-    background-color: white;
-    color: #006d46;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-family: Arial, sans-serif;
-    font-size: 16px;
+  background-color: white;
+  color: #006d46;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
 }
 
 .contenedor {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    background: url('./rescursos/fondo_index2.jpg') no-repeat center center/cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: url("./rescursos/fondo_index2.jpg") no-repeat center center/cover;
 }
 
 .texto {
-    font-size: 20px;
-    font-family: 'Great Vibes', cursive;
-    color: wheat;
-    font-weight: 900;
-    padding: 20px;
-    margin: 10px 0;
-    border-radius: 8px;
-    max-width: 70%;
-    text-align: center;
-    margin-bottom: 100px;
+  font-size: 20px;
+  font-family: "Great Vibes", cursive;
+  color: wheat;
+  font-weight: 900;
+  padding: 20px;
+  margin: 10px 0;
+  border-radius: 8px;
+  max-width: 70%;
+  text-align: center;
+  margin-bottom: 100px;
 }
 
-h1, h2, p {
-    margin: 0;
-    color: #333;
+h1,
+h2,
+p {
+  margin: 0;
+  color: #333;
 }
 
-.titulo{
-    color: #FFFFFF;
-    background-color: #157759;
-    text-align: center;
-    font-family: 'Qwitche Grypen', static;
-    font-size: 64px;
-    text-decoration: underline;
-    border: 1rem solid white;
-
+.titulo {
+  color: #ffffff;
+  background-color: #157759;
+  text-align: center;
+  font-family: "Qwitche Grypen", static;
+  font-size: 64px;
+  text-decoration: underline;
+  border: 1rem solid white;
 }
 
-.colaboraciones{
-    background-color: #157759;
+.colaboraciones {
+  background-color: #157759;
 }
 
-.colaboraciones img{
-    margin-left: 140px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    width: 200px;
-    height: 100px;
+.colaboraciones img {
+  margin-left: 140px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 200px;
+  height: 100px;
 }
 
-.colaboraciones .alta{
-    width: 200px;
-    height: 150px;
+.colaboraciones .alta {
+  width: 200px;
+  height: 150px;
 }
+
+
 
 footer {
-    display: flex;
-    background-image: url("./rescursos/footer.png");
-    font-weight: 700;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
-    border-top: 3px solid #ccc;
+  display: flex;
+  background-image: url("./rescursos/footer.png");
+  font-weight: 700;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  border-top: 3px solid #ccc;
 }
 
-footer a{
-    color: black;
+footer a {
+  color: black;
 }
 
-footer .texto_licencia{
-    color: white;
+footer .texto_licencia {
+  color: white;
 }
 
 .logo img {
-    margin-right: 10px;
-    width: 80px;
-    height: 80px;
-    border-radius: 50%;
+  margin-right: 10px;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
 }
 
 .social a {
-    margin: 0 10px;
-    color: black;
-    font-size: 24px;
-    text-decoration: none;
+  margin: 0 10px;
+  color: black;
+  font-size: 24px;
+  text-decoration: none;
 }
 
 .social a:hover {
-    opacity: 0.7;
+  opacity: 0.7;
 }
-.social img{
-    width: 40px;
-    height: 40px;
+.social img {
+  width: 40px;
+  height: 40px;
 }

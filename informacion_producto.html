@@ -41,10 +41,16 @@
       </nav>
     <div class="producto">
         <div>Silla Vaquera COMPLETA de CASTECUS</div> 
-        <div>432,03€</div></div><br>
-      <img src="./rescursos/tienda/silla_vaquera.png" alt="Silla Vaquera">
-      <img src="./rescursos/tienda/silla-vaquera-castecus-completa_2.png"  id="silla_vaquera2" alt="">
-      <img src="./rescursos/tienda/silla-vaquera-castecus-completa_3.jpg" id="silla_vaquera3" alt=""><br><br>
+        <div>432,03€</div></div>
+        <div class="slider">
+          <div class="slides">
+            <div class="slide"><img src="./rescursos/tienda/silla_vaquera.png" alt="Silla Vaquera"></div>
+            <div class="slide"><img src="./rescursos/tienda/silla-vaquera-castecus-completa_2.png"  id="silla_vaquera2" alt=""></div>
+            <div class="slide"><img src="./rescursos/tienda/silla-vaquera-castecus-completa_3.jpg" id="silla_vaquera3" alt=""></div>
+          </div>
+          <button class="prev" onclick="moveSlide(-1)">&#10094;</button>
+          <button class="next" onclick="moveSlide(1)">&#10095;</button>
+      </div>
 
     <p class="informacion">Silla vaquera completa (incluye cincha, acción, estribo y baticola).</p>
     <p class="informacion">No incluye manta estribera, armadura de fibra, baste de goma, zalea de borreguillo artificial, peso de la silla sin equipo: 7.500 kg, Medida del hueco del asiento: 23 cm, medida del borrén: 32 cm y largo del baste: 42 cm.</p>
@@ -73,5 +79,6 @@
         </div>
 
     </footer>
-</body>
+<script src="./informacion_producto.js"></script>
+  </body>
 </html>
