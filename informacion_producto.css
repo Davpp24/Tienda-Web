@@ -42,10 +42,10 @@ body{
     overflow: hidden;
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-    margin: auto; /* Centra horizontalmente el slider */
-    display: flex; /* Flexbox para centrar imágenes */
-    align-items: center; /* Centra verticalmente las imágenes */
-    justify-content: center; /* Centra horizontalmente las imágenes */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
 }
 
 .slides {
@@ -70,7 +70,7 @@ body{
 }
 
 
-button {
+#slide_foto {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
@@ -84,7 +84,7 @@ button {
     z-index: 10;
 }
 
-button:hover {
+#slide_foto:hover {
     background-color: rgba(0, 0, 0, 0.7);
 }
 
@@ -101,9 +101,13 @@ button:hover {
 .informacion{
     color: #848282;
 }
+.botones{
+    margin-top:40px;
+    margin-bottom: 23px;
+}
 
 .anyadir {
-    background-color: #82DBB8; /* Verde */
+    background-color: #82DBB8;
     color: black;
     padding: 15px 32px;
     text-align: center;
@@ -114,8 +118,12 @@ button:hover {
     cursor: pointer;
 }
 
+.anyadir:hover{
+    opacity: 0.5;
+}
+
 .comprar {
-    background-color: #82DBB8; /* Verde */
+    background-color: #82DBB8;
     color: black;
     padding: 15px 32px;
     text-align: center;
@@ -124,6 +132,10 @@ button:hover {
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
+}
+
+.comprar:hover{
+    opacity: 0.5;
 }
 
 footer {
