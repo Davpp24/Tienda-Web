@@ -33,7 +33,22 @@ body{
 }
 .producto {
     margin: 20px;
+    transition:
+    opacity 2s,
+    width 1s,
+    height 1s;
 }
+
+.producto:hover{
+    background-color: #ccc;
+    width: 300px;
+    height: 300px;
+}
+
+@starting-style {
+    .producto {
+      opacity: 0;
+    }}
 
 .precio{
     color: #575757;
