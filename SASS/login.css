@@ -6,6 +6,10 @@
 
 body {
   font-family: "Raleway", serif;
+  background-image: url("../rescursos/fondo_login.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .navbar {
@@ -41,7 +45,8 @@ body {
   gap: 10px;
 }
 
-.login, .signup {
+.login,
+.signup {
   background-color: transparent;
   border: 1px solid white;
   color: white;
@@ -54,15 +59,30 @@ body {
   color: #006d46;
 }
 
-.login:hover, .signup-btn:hover {
+.login:hover,
+.signup-btn:hover {
   opacity: 0.7;
+}
+
+.formulario input,
+.formulario button {
+  margin-top: 30px;
+  width: 270px;
+  height: 60px;
+  margin-left: 650px;
+}
+
+.formulario button {
+  background-color: black;
+  color: white;
+  margin-bottom: 60px;
 }
 
 .footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-image: url("./rescursos/footer.png");
+  background-image: url("../rescursos/footer.png");
   background-size: cover;
   padding: 20px;
   border-top: 3px solid #ccc;
@@ -90,4 +110,4 @@ body {
   height: 40px;
 }
 
-/*# sourceMappingURL=login2.css.map */
+/*# sourceMappingURL=login.css.map */

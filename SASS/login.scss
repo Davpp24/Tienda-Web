@@ -1,15 +1,17 @@
-// Global styles
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body{
+body {
     font-family: 'Raleway', serif;
+    background-image: url('../rescursos/fondo_login.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
-// Navbar styles
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -43,7 +45,8 @@ body{
     gap: 10px;
 }
 
-.login, .signup {
+.login,
+.signup {
     background-color: transparent;
     border: 1px solid white;
     color: white;
@@ -56,18 +59,9 @@ body{
     color: #006d46;
 }
 
-.login:hover, .signup-btn:hover {
+.login:hover,
+.signup-btn:hover {
     opacity: 0.7;
-}
-
-// Form styles
-.formulario{
-    background-image: url('./rescursos/fondo_login.jpg');
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
 }
 
 .formulario input,
@@ -84,12 +78,11 @@ body{
     margin-bottom: 60px;
 }
 
-// Footer styles
 .footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-image: url('./rescursos/footer.png');
+    background-image: url('../rescursos/footer.png');
     background-size: cover;
     padding: 20px;
     border-top: 3px solid #ccc;
