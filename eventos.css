@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Coming+Soon&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -16,11 +17,79 @@
 
 #eventos{
     display: flex;
+    justify-content: space-around;
+    
 }
 .evento{
-    border: 20px solid;
-    border-color: white;
-    background-color: #ccc;
+    border: 2px solid #7a7676;
+    background-color: wheat;
+}
+
+.slider {
+    position: relative;
+    width: 80%;
+    max-width: 300px;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+    margin-left: 35px;
+}
+
+.slides {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    width: 100%;
+}
+
+.slide {
+    min-width: 100%;
+    box-sizing: border-box;
+    display: flex; /* Centra las imágenes dentro de cada slide */
+    align-items: center; /* Centra verticalmente */
+    justify-content: center; /* Centra horizontalmente */
+}
+
+.slide img {
+    display: block;
+    border-radius: 10px;
+    max-width: 100%; /* Ajusta el ancho máximo al contenedor */
+    height: auto; /* Mantén la proporción */
+}
+
+
+#slide_foto {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 18px;
+    z-index: 10;
+}
+
+#slide_foto:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.prev {
+    left: 10px;
+}
+
+.next {
+    right: 10px;
+}
+
+.texto_evento{
+    margin-left: 8px;
+    font-family: "Coming Soon", cursive;
 }
 
 footer {
