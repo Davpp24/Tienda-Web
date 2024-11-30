@@ -1,0 +1,29 @@
+body {
+  font-family: "Raleway", serif;
+  background-image: url("../rescursos/fondo_metodo_pago.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.form-label {
+  font-size: 0.9rem;
+}
+
+.form-control, .form-select {
+  padding: 0.4rem 0.6rem;
+  font-size: 0.9rem;
+}
+
+.btn {
+  padding: 0.5rem;
+  font-size: 0.9rem;
+  margin-bottom: 15px;
+}
+
+.container {
+  max-width: 500px;
+  background-color: rgba(204, 204, 204, 0.8);
+}
+
+/*# sourceMappingURL=formulario_pago.css.map */
