@@ -6,6 +6,10 @@
 
 body{
     font-family: 'Raleway', serif;
+    background-image: url('../rescursos/fondo_singUp.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 .navbar-nav .nav-link {
@@ -16,38 +20,12 @@ body{
     opacity: 0.7;
 }
 
-.formulario{
-    background-image: url(./rescursos/fondo_login.jpg);
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    
-}
-
-.formulario input{
-    margin-top: 30px;
-    width: 270px;
-    height: 60px;
-    margin-left: 650px;
-}
-
-.formulario button{
-    
-    background-color: black;
-    color: white;
-    width: 270px;
-    height: 60px;
-    margin-left: 650px;
-    margin-bottom: 60px;
-}
-
 footer {
+    margin-top: 40px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-image: url('./rescursos/footer.png');
+    background-image: url('../rescursos/footer.png');
     background-size: cover;
     padding: 20px;
     border-top: 3px solid #ccc;
@@ -81,3 +59,4 @@ footer .texto_licencia{
     width: 40px;
     height: 40px;
 }
+

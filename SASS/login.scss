@@ -64,21 +64,7 @@ body {
     opacity: 0.7;
 }
 
-.formulario input,
-.formulario button {
-    margin-top: 30px;
-    width: 270px;
-    height: 60px;
-    margin-left: 650px;
-}
-
-.formulario button {
-    background-color: black;
-    color: white;
-    margin-bottom: 60px;
-}
-
-.footer {
+footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -86,6 +72,14 @@ body {
     background-size: cover;
     padding: 20px;
     border-top: 3px solid #ccc;
+}
+
+footer a{
+    color: black;
+}
+
+footer .texto_licencia{
+    color: white;
 }
 
 .logo img {
