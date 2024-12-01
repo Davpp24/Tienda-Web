@@ -16,13 +16,25 @@
 }
 
 #eventos{
+    margin-top: 10px;
     display: flex;
     justify-content: space-around;
     
 }
 .evento{
+    width: 401px;
+    height: 560px;
+    margin-left: 20px;
+    margin-right: 20px;
     border: 2px solid #7a7676;
-    background-color: wheat;
+    background-color: rgb(242, 228, 203);
+    border-radius:22px;
+}
+
+.texto_evento{
+    margin-left: 8px;
+    margin-bottom: 8px;
+    font-family: "Coming Soon", cursive;
 }
 
 .slider {
@@ -35,6 +47,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 5px;
     margin-bottom: 10px;
     margin-left: 35px;
 }
@@ -56,8 +69,8 @@
 .slide img {
     display: block;
     border-radius: 10px;
-    max-width: 100%; /* Ajusta el ancho máximo al contenedor */
-    height: auto; /* Mantén la proporción */
+    max-width: 100%;
+    height: auto; 
 }
 
 
@@ -87,12 +100,8 @@
     right: 10px;
 }
 
-.texto_evento{
-    margin-left: 8px;
-    font-family: "Coming Soon", cursive;
-}
-
 footer {
+    margin-top: 50px;
     display: flex;
     background-image: url("./rescursos/footer.png");
     font-weight: 700;
