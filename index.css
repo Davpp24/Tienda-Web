@@ -34,7 +34,7 @@
   align-items: center;
   justify-content: center;
   height: 100vh;
-  background: url("./rescursos/fondo_index2.jpg") no-repeat center center/cover;
+  background: url("./rescursos/fondo_index.jpg") no-repeat center center/cover;
 }
 
 .texto {
