@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="eventos.css">
+    <link rel="stylesheet" href="./SASS/eventos.css">
     <link rel="icon" type="image/x-icon" href="./rescursos/logo.ico">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <title>Document</title>
@@ -50,58 +50,96 @@
         </div>
     </nav>
     
-    <section>
-        <div id="eventos">
-            <div class="evento">
-                <div class="slider">
-                    <div class="slides">
-                        <div class="slide"><img src="./rescursos/eventos/curso_trenzado.jpeg" alt=""></div>
-                        <div class="slide"> <img src="./rescursos/eventos/curso_heraje.jpg" alt=""></div>
+    <section class="container mt-4">
+        <div id="eventos" class="row">
+          
+            <div class="evento col-md-4 mb-4">
+                <div id="carouselEvento1" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="./rescursos/eventos/curso_trenzado.jpeg" class="d-block w-100" alt="Curso trenzado">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./rescursos/eventos/curso_heraje.jpg" class="d-block w-100" alt="Curso herraje">
+                        </div>
                     </div>
-                    <button id="slide_foto" class="prev" onclick="moveSlide(-1)">&#10094;</button>
-                    <button id="slide_foto" class="next" onclick="moveSlide(1)">&#10095;</button>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselEvento1" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselEvento1" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
                 </div>
-                <p class="texto_evento"> <b>Curso de trenzado y herraje</b></p>
-                <p class="texto_evento">En este curso especializado aprenderás las técnicas fundamentales para el cuidado y mantenimiento de los cascos y el arreglo estético de los caballos. 
-                    Diseñado tanto para principiantes como para quienes buscan perfeccionar sus habilidades, este curso combina teoría y práctica para garantizar que adquieras 
-                    las competencias necesarias.<hr>
-                    Para apuntarse o preguntar información no dude en escribirnos nuestro correo electronico: <b>caballoyestilo@gmail.com</b> o llamenos al: <b>678912345</b></p>
+                <p class="titulo_evento mt-3"><b>Curso de trenzado y herraje</b></p>
+                <p class="texto_evento">
+                    En este curso especializado aprenderás las técnicas fundamentales para el cuidado y mantenimiento de los cascos y el arreglo estético de los caballos. Diseñado tanto para principiantes como para quienes buscan perfeccionar sus habilidades, este curso combina teoría y práctica para garantizar que adquieras las competencias necesarias.
+                    <hr>
+                    Para apuntarse o preguntar información no dude en escribirnos nuestro correo electrónico: <b>caballoyestilo@gmail.com</b> o llámenos al: <b>678912345</b>
+                </p>
             </div>
-
-            <div class="evento">
-                <div class="slider">
-                    <div class="slides" id="slides2">
-                        <div class="slide"><img src="./rescursos/eventos/clases_equitacion.jpeg" alt=""></div>
-                        <div class="slide"> <img src="./rescursos/eventos/clases_equitacion_2.png" alt=""></div>
+    
+        
+            <div class="evento col-md-4 mb-4">
+                <div id="carouselEvento2" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="./rescursos/eventos/clases_equitacion.jpeg" class="d-block w-100" alt="Clases de equitación">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./rescursos/eventos/clases_equitacion_2.png" class="d-block w-100" alt="Clases de equitación 2">
+                        </div>
                     </div>
-                    <button id="slide_foto" class="prev" onclick="moveSlide2(-1)">&#10094;</button>
-                    <button id="slide_foto" class="next" onclick="moveSlide2(1)">&#10095;</button>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselEvento2" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselEvento2" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
                 </div>
-                <p class="texto_evento"><b>Clases de Equitación</b></p>
-                <p class="texto_evento">Descubre el fascinante mundo de la equitación con nuestras clases diseñadas para todos los niveles, 
-                    desde principiantes hasta jinetes avanzados. Bajo la guía de instructores expertos, aprenderás las técnicas esenciales para montar 
-                    a caballo con confianza, mejorar tu postura y disfrutar de una conexión única con estos nobles animales. <hr>
-                    Para apuntarse o preguntar información no dude en escribirnos nuestro correo electronico: <b>caballoyestilo@gmail.com</b> o llamenos al: <b>678912345</b></p>
-                
+                <p class="titulo_evento mt-3"><b>Clases de Equitación</b></p>
+                <p class="texto_evento">
+                    Descubre el fascinante mundo de la equitación con nuestras clases diseñadas para todos los niveles, desde principiantes hasta jinetes avanzados. Bajo la guía de instructores expertos, aprenderás las técnicas esenciales para montar a caballo con confianza, mejorar tu postura y disfrutar de una conexión única con estos nobles animales.
+                    <hr>
+                    Para apuntarse o preguntar información no dude en escribirnos nuestro correo electrónico: <b>caballoyestilo@gmail.com</b> o llámenos al: <b>678912345</b>
+                </p>
             </div>
-
-            <div class="evento">
-                <div class="slider">
-                    <div class="slides" id="slides3">
-                        <div class="slide"><img src="./rescursos/eventos/ruta.jpg" alt=""></div>
-                        <div class="slide"><img src="./rescursos/eventos/ruta_agua.jpg" alt=""></div>
-                        <div class="slide"><img src="./rescursos/eventos/ruta_monte.jpg" alt=""></div>
+    
+            <div class="evento col-md-4 mb-4">
+                <div id="carouselEvento3" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="./rescursos/eventos/ruta.jpg" class="d-block w-100" alt="Ruta a caballo">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./rescursos/eventos/ruta_agua.jpg" class="d-block w-100" alt="Ruta a caballo agua">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./rescursos/eventos/ruta_monte.jpg" class="d-block w-100" alt="Ruta a caballo monte">
+                        </div>
                     </div>
-                    <button id="slide_foto" class="prev" onclick="moveSlide3(-1)">&#10094;</button>
-                    <button id="slide_foto" class="next" onclick="moveSlide3(1)">&#10095;</button>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselEvento3" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselEvento3" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
                 </div>
-                <p class="texto_evento"><b>Ruta a caballo a traves de sierra morena</b></p>
-                <p class="texto_evento">¡Descubre la magia de Sierra Morena desde una perspectiva única! Únete a nuestra ruta a caballo y vive una experiencia inolvidable 
-                    mientras recorres paisajes espectaculares, te conectas con la naturaleza y disfrutas de la tranquilidad que solo este entorno puede ofrecer. <hr>
-                    Para apuntarse o preguntar información no dude en escribirnos nuestro correo electronico: <b>caballoyestilo@gmail.com</b> o llamenos al: <b>678912345</b></p>
+                <p class="titulo_evento mt-3"><b>Ruta a caballo a través de Sierra Morena</b></p>
+                <p class="texto_evento">
+                    ¡Descubre la magia de Sierra Morena desde una perspectiva única! Únete a nuestra ruta a caballo y vive una experiencia inolvidable mientras recorres paisajes espectaculares, te conectas con la naturaleza y disfrutas de la tranquilidad que solo este entorno puede ofrecer.
+                    <hr>
+                    Para apuntarse o preguntar información no dude en escribirnos nuestro correo electrónico: <b>caballoyestilo@gmail.com</b> o llámenos al: <b>678912345</b>
+                </p>
             </div>
         </div>
     </section>
+    
 
     <footer>
         <div class="logo">
@@ -131,7 +169,7 @@
                     alt=""><i class="mail"></i></a>
         </div>
     </footer>
-    <script src="./eventos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
