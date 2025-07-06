@@ -62,7 +62,7 @@ Prototipado de e-commerce estático
 bash
 Copiar
 Editar
-📁 equistore/
+📁 Caballo&Estilo/
 ├── 📄 index.html
 ├── 📄 productos.html
 ├── 📄 login.html
